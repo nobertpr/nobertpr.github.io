@@ -43,7 +43,7 @@
               </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
+              <a href="./#contact" class="header__link"> Contact </a>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
@@ -96,9 +96,9 @@
             Aspiring Developer & Data Science Enthusiast
           </p>
         </div>
-        <div class="home-hero__cta">
+        <!-- <div class="home-hero__cta">
           <a href="./assets/pdf/cv_Nobert_Pratama_11-05-2023.pdf" target="_blank" class="btn btn--bg">See my resume</a>
-        </div>
+        </div> -->
       </div>
       <div class="home-hero__socials">
         <div class="home-hero__social">
@@ -173,13 +173,12 @@
               </p>
               <p class="about__content-details-para">
                 I am interested in learning about <strong>Data Science</strong> Topics such as, Machine Learning, Deep Learning, etc. In my spare time, I like to explore new things and create <a href="./#projects" class="text-link">projects</a> on things that catches my interest.
-                Feel free to
-                <strong>contact</strong> me here.
+                Feel free to contact me!
               </p>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+            <!-- <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
               >Contact</a
-            >
+            > -->
           </div>
           <div class="about__content-skills">
             <h3 class="about__content-title">My Skills</h3>
@@ -223,9 +222,8 @@
                 This is a simple project that I made, when I was learning the fastai API. I used the ResNet34 Architecture and finetuned the model on a Kaggle Face Mask Dataset. The model is then deployed locally through the help of streamlit.
               </p>
               <a
-                href="./project-1.html"
+                href="./projects/project-1.html"
                 class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
                 >See Details</a
               >
             </div>
@@ -245,13 +243,35 @@
                 This is my final project for my NLP Course. I used the DistilBERT pre-trained model to create a sentiment analysis model. The model is able to classify whether a review is positive or negative. The model is deployed locally with the help of streamlit.
               </p>
               <a
-                href="./project-2.html"
+                href="./projects/project-2.html"
                 class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
                 >See Details</a
               >
             </div>
           </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/project3.PNG"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Amazon Review Sentiment Analysis</h3>
+              <p class="projects__row-content-desc">
+                This is my final project for my NLP Course. I used the DistilBERT pre-trained model to create a sentiment analysis model. The model is able to classify whether a review is positive or negative. The model is deployed locally with the help of streamlit.
+              </p>
+              <a
+                href="./projects/project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >See Details</a
+              >
+            </div>
+          </div>
+          
           <!-- <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
@@ -279,7 +299,7 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="contact sec-pad dynamicBg">
+    <!-- <section id="contact" class="contact sec-pad dynamicBg">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
@@ -329,69 +349,71 @@
           </form>
         </div>
       </div>
-    </section>
+    </section> -->
     <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nobert-pratama">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/nobertpr">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <!-- <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a> -->
-              <a target="_blank" rel="noreferrer" href="mailto:pratamanobert@gmail.com">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/mail.png"
-                  alt="icon"
-                />
-              </a>
-              <!-- <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a> -->
+      <section id="contact">
+        <div class="main-container" name="contact_links">
+          <div class="main-footer__upper">
+            <div class="main-footer__row main-footer__row-1">
+              <h2 class="heading heading-sm main-footer__heading-sm">
+                <span>Social</span>
+              </h2>
+              <div class="main-footer__social-cont">
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nobert-pratama">
+                  <img
+                    class="main-footer__icon"
+                    src="./assets/png/linkedin-ico.png"
+                    alt="icon"
+                  />
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/nobertpr">
+                  <img
+                    class="main-footer__icon"
+                    src="./assets/png/github-ico.png"
+                    alt="icon"
+                  />
+                </a>
+                <!-- <a target="_blank" rel="noreferrer" href="#">
+                  <img
+                    class="main-footer__icon"
+                    src="./assets/png/twitter-ico.png"
+                    alt="icon"
+                  />
+                </a> -->
+                <a target="_blank" rel="noreferrer" href="mailto:pratamanobert@gmail.com">
+                  <img
+                    class="main-footer__icon"
+                    src="./assets/png/mail.png"
+                    alt="icon"
+                  />
+                </a>
+                <!-- <a target="_blank" rel="noreferrer" href="#">
+                  <img
+                    class="main-footer__icon main-footer__icon--mr-none"
+                    src="./assets/png/insta-ico.png"
+                    alt="icon"
+                  />
+                </a> -->
+              </div>
             </div>
+            <!-- <div class="main-footer__row main-footer__row-2">
+              <h4 class="heading heading-sm text-lt">John Doe</h4>
+              <p class="main-footer__short-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
+                tempora explicabo quae quod deserunt
+              </p>
+            </div> -->
           </div>
-          <!-- <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
-            <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
-            </p>
-          </div> -->
-        </div>
 
-        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
-        <div class="main-footer__lower">
-          &copy; Open Source project by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
+          <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+          <div class="main-footer__lower">
+            &copy; Open Source project by
+            <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+              >Ram Maheshwari</a
+            >
+          </div>
         </div>
-      </div>
+      </section>
     </footer>
 
     <script src="./index.js"></script>
